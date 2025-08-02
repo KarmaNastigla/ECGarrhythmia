@@ -1,0 +1,91 @@
+# Общие системные файлы
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+*~
+~$*
+
+# Файлы IDE/редакторов
+.idea/
+.vscode/
+*.code-workspace
+__pycache__/
+*.py[cod]
+
+# Python специфичные файлы
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+pip-selfcheck.json
+
+# Логи и отладочные данные
+*.log
+*.sqlite
+*.sql
+*.db
+
+# Jupyter ноутбуки
+.ipynb_checkpoints/
+*.ipynb
+
+# Docker и сборки
+docker-compose.override.yml
+*.env
+.env.docker
+.env.prod
+docker-data/
+
+# Модели и большие файлы (если не используются LFS)
+*.pth
+*.h5
+*.pb
+*.onnx
+*.joblib
+*.bin
+*.weights
+/data/
+/notebooks/data/
+
+# Тестовые данные и кэши
+/test_data/
+*.npy
+*.npz
+*.pickle
+*.pkl
+
+# Фронтенд специфичные файлы
+node_modules/
+dist/
+build/
+*.min.js
+*.min.css
+.sass-cache/
+.jekyll-cache/
+
+# Документация
+_site/
+docs/_build/
+*.pdf
+*.epub
+*.mobi
+
+# Исключения (разрешаем только нужные файлы)
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore
