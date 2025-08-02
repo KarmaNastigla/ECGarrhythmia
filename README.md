@@ -49,7 +49,8 @@ docker-compose up --build
 2. Просмотрите визуализацию сигнала
 3. Получите диагноз с вероятностями
 
-Ссылка, где можно взять csv фыйлы с анными по ЭКГ:
+Ссылка, где можно взять csv фыйлы с данными по ЭКГ:
+
 https://www.kaggle.com/code/karanastigla/mit-bih-arrhythmia-pytorch-99-4/input
 
 Пример данных:
